@@ -24,7 +24,7 @@ public class MagentoSoapConnector17
 	private Service service; // = factory.createService(wsdlLocation,serviceName);
 	private QName serviceName; // = new QName( "urn:Magento", "MagentoService" );
 	private String sessId;
-	private URL wsdlLocation; // = new URL("http://local.duomo.gr/live/index.php/api/v2_soap?wsdl=1");
+	private URL wsdlLocation;
 
 	/**
 	 * Connect to Magento SOAP API
