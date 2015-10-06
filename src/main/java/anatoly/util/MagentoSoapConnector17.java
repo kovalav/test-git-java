@@ -24,8 +24,8 @@ public class MagentoSoapConnector17
 	private Service service; // = factory.createService(wsdlLocation,serviceName);
 	private QName serviceName; // = new QName( "urn:Magento", "MagentoService" );
 	private String sessId;
-	private URL wsdlLocation;
-
+	private URL wsdlLocation;	// 
+	
 	/**
 	 * Connect to Magento SOAP API
 	 *
