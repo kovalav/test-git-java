@@ -21,8 +21,8 @@ public class MagentoSoapConnector17
 	private ServiceFactory factory; // = ServiceFactory.newInstance();
 	private Mage_Api_Model_Server_V2_HandlerPortType objRcx; // = (Mage_Api_Model_Server_V2_HandlerPortType)service.getPort(portName, Mage_Api_Model_Server_V2_HandlerPortType.class);
 	private QName portName; // = new QName("urn:Magento", "Mage_Api_Model_Server_V2_HandlerPort");
-	private Service service; // = factory.createService(wsdlLocation,serviceName);
-	private QName serviceName; // = new QName( "urn:Magento", "MagentoService" );
+	private Service service;
+	private QName serviceName;
 	private String sessId;
 	private URL wsdlLocation;
 
