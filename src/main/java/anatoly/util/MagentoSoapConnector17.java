@@ -24,8 +24,8 @@ public class MagentoSoapConnector17
 	private Service service;
 	private QName serviceName;
 	private String sessId;
-	private URL wsdlLocation;
-
+	private URL wsdlLocation;	// 
+	
 	/**
 	 * Connect to Magento SOAP API
 	 *
